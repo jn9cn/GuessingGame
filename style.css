@@ -10,7 +10,11 @@
       img {
           display: inline;
           width: 200px;
-          height: 100px;
+          height: auto;
+      }
+
+     h4, img {
+          padding: 30px 0;
       }
 
       #footer {
@@ -19,4 +23,74 @@
           background-color: white;
           position: fixed;
           bottom: 0;
+          background-color: white;
       }
+
+      html {
+        box-sizing: 'border-box'
+      }
+
+      #input-parent {
+        display: block;
+        width: 160px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin: 10px auto 10px auto; */
+        margin: 50px auto; 
+        border-radius: 100%;
+        position: relative;
+      }
+
+      #player-input {
+          border-radius: 50%;
+          width: 160px;
+          height: 160px;
+          font-size: 60px;
+      }
+
+      #submit {
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          bottom: 5px;
+          right: 5px;
+          background-color: limegreen;
+          font-size: 20px;
+      }
+
+      .guess {
+          display: inline;
+          font-size: 60px;
+          border: 1px solid black;
+          padding: 0 25px; 
+          border-radius: 10%;
+          background-color: white;
+      }
+
+      body {
+          background-image: url(guessing-game-bgnd.jpeg);
+          background-size: contain;
+      }
+
+      #app {
+          margin: 50px auto;
+          background-color: rgba(256, 256, 256, 0.5);
+          font-family: 'Lato', sans-serif;
+      }
+
+      #menu-btns {
+          margin-bottom: 20px;
+      }
+
+      #reset {
+          background-color: gold;
+          font-size: 20px;
+      }
+
+      #hint {
+          background-color: cornflowerblue;
+          font-size: 20px;
+      }
+
+      
